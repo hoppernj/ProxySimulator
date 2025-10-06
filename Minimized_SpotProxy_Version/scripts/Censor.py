@@ -94,4 +94,3 @@ class TargetedCensor:
         proxy_scores.sort(key=lambda x: (x[0], x[1].id), reverse=True)
         to_block = [p for _, p in proxy_scores[:max(1, len(proxy_scores) // 10)]]
         return to_block
-
