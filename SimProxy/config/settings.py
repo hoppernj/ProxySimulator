@@ -3,7 +3,7 @@ import secrets
 
 secret_key = secrets.token_urlsafe(50)
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.getcwd() # os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = secret_key
 
