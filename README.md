@@ -1,4 +1,4 @@
-# SpotProxy Simulation Modules
+# SimProxy Simulation Modules
 
 This repository includes core modules for simulating different proxy and censorship strategies.
 
